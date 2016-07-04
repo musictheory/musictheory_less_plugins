@@ -1,0 +1,37 @@
+foo .a {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-flow: column;
+  -webkit-transform: scale3d(1, 1);
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  transform: scale3d(1, 1);
+  user-select: none;
+}
+._a {
+  color: red;
+}
+._b {
+  color: green;
+}
+._g {
+  color: blue;
+}
+._d {
+  color: yellow;
+}
+@media print {
+  ._a {
+    color: black;
+  }
+}
+._a._b {
+  color: purple;
+}
+#foo._a {
+  color: green;
+}
